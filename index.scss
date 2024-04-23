@@ -1,0 +1,2881 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+@font-face {
+    font-family: "Baloo2-Regular";
+    src: url("Baloo2-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "BalooBhaijaan-Regular";
+    src: url("BalooBhaijaan-Regular.ttf");
+}
+
+@import 'variables';
+
+
+
+.hammenu{
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+      
+      .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+      }
+      
+      .overlay a {
+        font-family: "Baloo2-Regular";
+        font-weight: 400;
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+      
+      .overlay .closebtn {
+        position: absolute;
+        top: -27px;
+        right: 12px;
+        font-size: 60px;
+      }
+      span{
+        font-family: "BalooBhaijaan-Regular";
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 20px;
+        padding-top: 6px;
+      }
+      
+      .logo{
+       
+        background-color: $white;
+        width: 100%;
+        img{
+            width: 30%;
+        }
+      }
+}
+
+  @media screen and (min-width: 769px) {
+    .hammenu{
+        display: none;
+    }
+    
+    
+  }
+
+
+
+
+
+@media (min-width: 769px) {
+    nav {
+        display: none;
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+@mixin navbar{
+     display: flex;
+     justify-content: space-between;
+
+   
+
+a{
+    font-family: $font-family;
+    text-decoration: none;
+    font-size: $aoriginal;
+    margin-left: 35px;
+    font-weight:900 ;
+    color: $blue;
+}
+
+.con{
+    font-family: $font-family;
+    color:  $orange;
+}
+
+
+.navigation{
+    font-family:$font-family;
+    margin-right: 50px;
+}
+.logo{
+    margin-left: 15px;
+}
+
+
+}
+
+.navbar{
+    @include navbar;
+}
+
+
+
+@mixin house{
+    padding-left: 60px;
+    margin-right: 60px;
+   
+   
+    h1{
+        font-family: $font-family;
+        font-size: $fontheading1;
+        font-weight: 400;
+        
+        color: $blue;
+    }
+
+
+    .imageNumber-four{
+      padding-top: 171px;
+    }
+    .lastimage{
+        height: 63.0vh;
+       width: 99%;
+       object-fit: cover;
+       box-shadow:.5px  100px 50px white;
+       align-items: flex-end;
+    margin-top: 5px;
+    }
+    
+
+    .pic1{
+
+        display: flex;
+        flex-direction: column;
+       
+    img{
+        margin: 2px;
+        margin-top: 0px;
+        object-fit: cover;
+       
+    }
+
+   
+    .faq{
+       padding-top: 25px;
+       object-fit: cover;
+    }
+    .car-img{
+        height: 37.2vh;
+       margin-top: 5.9px;
+       object-fit: cover;
+       
+    }
+ }
+
+ .glass{
+    width: 100%;
+    height: 62vh;
+    margin-left: 0.5px;
+    margin-top: 12px;
+    object-fit: cover;
+
+}
+
+
+    .faint{
+        
+       height: 8vh;
+        opacity: 30%;
+        filter: alpha(opacity=30);
+        box-shadow:3px 10px 100px black;
+        object-fit: cover;
+    }
+    .lights{
+        width: 330px;
+        height: 7.5vh;
+        opacity: 30%;
+        filter: alpha(opacity=30);
+        box-shadow:3px 10px 100px black;
+        object-fit: cover;
+    }
+ 
+
+
+   .likesky{
+    width: 205px;
+    margin-left: 27px;
+    box-shadow:3px 10px 100px black;
+    opacity: 30%;
+    filter: alpha(opacity=30);
+    object-fit: cover;
+   }
+.lastcar{
+
+    margin-left: 34px;
+    width: 375px;
+ opacity: 30%;
+ filter: alpha(opacity=30);
+ object-fit: cover;
+
+
+}
+
+
+    h2{
+        font-family: $font-family;
+        font-size: $fontheading2;
+        font-weight:400 ;
+        color: $blue;
+    }
+        p{
+            font-family: $font-family;
+            font-weight: bolder;
+        }
+
+        
+.website{
+    font-weight: 400;
+}
+     .now{
+        font-family: $font-family;
+        color: $orange;
+        font-size: $fontNow;
+        font-weight: 400;
+     }
+
+     .line{
+        width:$line;
+        border: 1px solid $orange;
+        
+        
+     }
+     span{
+        display: inline-block;
+        margin: 3px;
+     }
+p{
+    font-family: $font-family;
+    color: $blue;
+}
+
+
+}
+
+.home{
+    @include house;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// lorem
+@mixin brand{
+    
+    padding-top: 50px;
+    padding-bottom: 85px;
+
+   
+    h2{
+        font-family: $font-family;
+        color: $orange;
+        font-size: $font-heading;
+    }
+    p{
+        font-family: "Baloo2-Regular";
+        color: $blue;
+        line-height: 1.3;
+    }
+   
+.flex{
+    font-family: $font-family;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hd{
+    font-family: $font-family;
+    margin-left: 80px;
+}
+
+
+}
+
+.lorem{
+    @include brand; 
+}
+// end lorem
+
+
+
+// services
+@mixin cards{
+  
+    background-color: $blue;
+    padding-top: 92px;
+   padding-bottom: 65px;
+   padding-left: 40px;
+   padding-right: 40px;
+   h2{
+    font-family: $font-family;
+     padding-bottom: 40px;
+     color: white;
+     font-weight: 400;
+     font-size: $font-heading;
+     margin-left: 20px;
+   } 
+
+   .card{
+    font-family: $font-family;
+    background-color: $blue;
+    color: white;
+    margin: 6px;
+   }
+
+    .navbar{
+        font-family: $font-family;
+     display: flex;
+     justify-content: space-between;
+    }
+
+h5{
+    font-family: $font-family;
+    color: $orange;
+}
+.line{
+    width:$linelong;
+    border: 1px solid $orange;
+
+}
+
+style{
+    display: inline-block;
+    margin: 3px;
+}
+
+.bar{
+
+        width:10px;
+        border:  8px solid white;
+        border-radius: 15px;
+}
+.bar:active{
+
+        width:8px;
+        border: 8px solid $orange;
+        border-radius: 15px;
+}
+.circle{
+
+        width:8px;
+        border: 8px solid $white;
+        border-radius: 50px;
+}
+.circle2{
+
+        width:10px;
+        border: 8px solid $white;
+        border-radius: 15px;
+}
+
+
+span{
+    display: grid;
+    margin-left: 10px;
+   margin-top: 50px;
+}
+
+.buttons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first-page{
+   
+    display: flex;
+}
+.second-page{
+    
+    display: flex;
+}
+.third-project{
+    display: flex;
+}
+.carousel-inner{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+p{
+    font-family: "Baloo2-Regular";
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+}
+
+#service{
+    @include cards;
+}
+
+
+
+// home
+@mixin home{
+   
+    h1{
+        font-family: $font-family;
+        font-size: $fontheading1;
+        font-weight: 900;
+    }
+    h2{
+        font-size:$font-heading;
+        font-weight:400;
+        font-family: $font-family;
+    }
+        p{
+            font-weight: 400;
+
+            font-weight: bolder;
+            font-family: "Baloo2-Regular";
+        //    rfn4tbifiregfi3rhrurlhlo3iiufrfi;lgtgt4g4
+        }
+
+        img{
+            width: 100%;
+     }
+}
+
+
+.home{
+    @include home;
+}
+
+   
+// subscribe
+@mixin purchase{
+    overflow: hidden;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .h2{
+        font-family: $font-family;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .scribe{
+        font-family: $font-family;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    img{
+        margin-right:40px;
+    }
+   .button{
+    font-weight: 400;
+    font-family: $font-family;
+    padding-bottom: 10px;
+    background-color: $blue;
+    padding: 20px;
+    text-align: center;
+    width: $buttonwidth;
+margin-right: 70px;
+   }
+    a{
+        font-weight: 400;
+        font-family: $font-family;
+        margin-top: 20px;
+        font-size: $atwo-fontsize;
+        text-decoration: none;
+        color: white;
+    }
+    h2{
+        font-weight: 400;
+        font-family: $font-family;
+        color: $orange;
+        font-size: $font-heading;
+        margin-left: 100px;
+    }
+
+   
+}
+
+
+#subscribe{
+    @include purchase;
+}
+
+
+@mixin hit{
+    overflow: hidden;
+    background-color: $formbackgroun;
+    padding-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+ 
+img{
+width: 80%;
+margin-right: 90px;
+background-size: cover;
+}
+ 
+
+  .forms{
+    width: $forms;
+    font-family: $font-family;
+   margin-left: 73px;
+    margin-bottom: 8px;
+    
+  }
+  a{
+    font-family: "Baloo2-Regular";
+    text-decoration: none;
+    color: white;
+    font-size:$atwo-fontsize;
+    font-weight: 400;
+
+  }
+  .button{
+    width: $buttonfivefoutfivr;
+    margin-left:90px ;
+    background-color: $blue;
+    padding: 20px;
+}
+  h2{
+    font-family: $font-family;
+    color: $orange;
+    font-size:$font-heading;
+    font-weight: 400;
+  }
+
+  p{
+    font-family: "Baloo2-Regular";
+    font-size: $fonthit;
+    color: $blue;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+
+.form-control{
+    font-family: "Baloo2-Regular";
+    padding: 16px;
+    color:$formtext;
+    margin: 16px;
+    font-weight: 400;
+
+}
+.get{
+    font-family: $font-family;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  margin-left: 90px;
+    
+
+}
+.roll{
+    display: flex;
+    justify-content:center;
+   
+
+}
+.fill{
+   padding-top: 30px;
+}
+
+}
+
+#contact{
+    @include hit;
+}
+
+
+
+
+   @mixin nowalls{
+
+   .image{
+    
+    color: $white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("images/Group 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   } 
+h2{
+    margin-left: 70px;
+    font-weight: 400;
+}
+   .pan{
+    margin-left: 72px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.phone{
+    font-family: "Baloo2-Regular";
+    display: flex;
+}
+.gps{
+    display: flex;
+}
+
+.icon{
+    
+    margin: 2px;
+}
+
+p{
+    font-family: "Baloo2-Regular";
+    padding-left: 15px;
+    font-weight: 400;
+}
+h2{
+    font-family: $font-family;
+}
+
+}
+
+.nowalls{
+    @include nowalls;
+}
+
+
+
+
+
+
+
+
+@mixin last{
+   
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.log{
+    @include last;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 576px) {
+
+    
+     
+.munehamb{
+//     .overlay a {font-size: 20px}
+//   .overlay .closebtn {
+//   font-size: 40px;
+//   top: -27px;
+//   right: 12px;
+//   }
+
+
+  logo{
+    p{
+        font-size: 18px;
+    }
+    font-family: Montserrat;
+    color: $white;
+    background-color: #1B252F;
+    padding-top: 10px;
+    position: absolute;
+    // padding: 0px;
+    padding-left: 10px;
+    width: 100%;
+    
+}
+
+
+
+
+
+}
+
+
+.navbar{
+    display: none;
+}
+
+
+
+
+    a{
+        font-family: "BalooBhaijaan-Regular";
+        text-decoration: none;
+        font-size: $base-a-thirtyone;
+        margin-left: 35px;
+        font-weight:900 ;
+        color: $blue;
+    }
+
+    p{
+        font-size: $base-p-;
+        font-weight: 100;
+    }
+    h2{
+        font-size: $base-htwo;
+    }
+
+  
+
+   
+// head
+.head{
+    h1{
+        font-size: $base-hone;
+    }
+    h2{
+        font-size: $base-htwo;
+    }
+    .now{
+        font-size: $base-now;
+    }
+    .line{
+        width:$line-width;
+        border: 1px solid $orange;
+        
+     }
+    
+}
+
+
+
+
+// home
+.home{
+    overflow: hidden;
+    padding-left: 16px;
+    margin-left: 0px;
+    padding-right: 20px;
+    margin-right: 0px;
+    .glass{
+        display: none;
+    }
+    .lastimage{
+        display: none;
+    }
+ .imageNumber-four{
+    display: none;
+ }
+ .faint{
+    display: none;
+ }
+ .lights{
+    display: none;
+ }
+ .lastcar{
+    display: none;
+ }
+ .likesky{
+    display: none;
+ }
+
+
+
+    }
+
+    // lorem
+.lorem{
+    margin-left: 20px;
+    margin-right: 20px;
+overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 37px;
+
+    overflow: hidden;
+  .flex{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .hd{
+  
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  h2{
+    font-size: $base-htwo;
+  }
+  img{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+   padding-left: 45px;
+  }
+
+
+}
+
+
+#service{
+overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 15px;
+
+    padding-left: 0px;
+   padding-right: 0px;
+
+img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.first-page{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.line{
+    width:$line-widthlong;
+    border: 1px solid $orange;
+
+}
+
+h2{
+    margin-left: 20px;
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: $base-htwo;
+    margin-bottom: 10px;
+}
+.card{
+    width:$card-width;
+
+    border: none;
+   margin-left: 0px;
+   margin-right: 0px;
+
+}
+
+
+span{
+    display: grid;
+   margin-top: 15px;
+} 
+
+.buttons{
+    display: none;
+}
+.card-body{
+    padding: 4px;
+}
+
+.carousel-inner{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
+
+#subscribe{
+margin-left: 20px;
+margin-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  
+    .button{
+        margin-right: 0px;
+        padding: 20px;
+        width: $button-width;
+        margin-left: 0px;
+        margin-bottom: 15px;
+       
+       }
+        a{
+           
+            font-size: $base-a-;
+            text-decoration: none;
+           font-weight: 100;
+        }
+        .h2{
+        display: flex;
+            justify-content:start;
+            align-items: start;
+            margin-right: 85px;
+        
+        }
+        h2{
+            font-size: $base-htwo;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        img{
+            width: 101%;
+            object-fit: cover;
+        
+        }
+
+
+        .scribe{
+         
+            display: flex;
+            flex-direction:column;
+          
+    
+        }
+
+
+}
+
+
+
+
+
+
+#contact{
+    
+    padding-top: 0px;
+    margin-bottom: 40px;
+    img{
+        width: 40%;
+        padding-left: 70px;
+        background-size: cover;
+        }
+        h2{
+            font-size: $base-htwo;
+        }
+        p{
+            font-size: $base-p-;
+        }
+        
+
+a{
+   padding: 0px;
+    font-size: $base-a-;
+    font-weight: 200;
+    margin: 0px;
+  }
+  .h2{
+    margin-bottom: 6px;
+  display: flex;
+  
+  }
+  .button{
+    width: $button-width-;
+    margin-left:171px;
+    border-radius: 5px;
+
+
+}
+
+
+.form-control{
+    margin: 8px;
+    margin-left: 71px;
+    width: $form-control;
+padding: 5px;
+    font-size: $base-a-;
+}
+
+p{
+    font-size: $base-p-;
+    margin-bottom: 6px;
+}
+  .button{
+margin-left: 144px;
+width: $button-contact;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+  }
+  
+  img{
+    display: none;
+  }
+  
+  .get{ 
+     margin-left: 0px;
+}
+
+
+
+}
+
+.nowalls{
+
+    .image{
+            padding-top: 20px;
+            padding-bottom: 0px;
+        background-size:100%; 
+        
+    }
+   
+    span{
+        font-size:5px;
+        color:white;
+    }
+    
+    .pan{
+       width: 245px;
+        display: flex;
+        margin-left: 20px;
+        display: flex;
+        justify-content:space-between;
+
+    }
+
+    h2{
+        margin-left:20px;
+        margin-bottom: 3px;
+    }
+   
+p{
+    padding-left: 5px;
+}
+
+}
+
+
+
+
+.log{
+
+    img{
+       
+        width:30%;
+    }
+}
+
+
+
+
+}
+
+
+
+@media (min-width: 576px) {
+    .topnav {
+        display: none;
+    }
+    .mobile-container {
+       display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width: 576px) and (max-width: 768px) {
+.hammenu{
+.logo{
+    img{
+        padding-top: 9px;
+    }
+}
+
+    .overlay {
+        height: 56%;
+    }
+
+span {
+       
+        margin-right: 20px;
+        padding-top: 36px;
+    }
+
+
+    .overlay .closebtn {
+        position: absolute;
+        top: -31px;
+        right: 5px;
+        font-size: 60px;
+      }
+}
+   
+    .navbar{
+    display: none;
+
+    }
+           
+                
+        
+    
+
+
+
+
+
+
+   
+        a{
+            font-size: $twobase-a-;
+            margin-left: 5px;
+            
+        }
+    p{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+  
+
+   
+
+.head{
+    overflow-x: hidden;
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: $twobase-htwo;
+    }
+    .now{
+        font-size: $twobase-now;
+    }
+    .line{
+        width:$twoline;
+        
+        
+     }
+    
+}
+
+
+
+
+
+.home{
+    overflow-x: hidden;
+    padding-left: 26px;
+
+    margin-left: 0px;
+    padding-right: 24px;
+    margin-right: 0px;
+    .glass{
+        width: $twoglass;
+        height: 55vh;
+    }
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .lastimage{
+        display: none;
+    }
+   
+ .imageNumber-four{
+    display: none;
+ }
+ .faint{
+    display: none;
+ }
+ .lights{
+    display: none;
+ }
+ .lastcar{
+    display: none;
+ }
+ .likesky{
+    display: none;
+ }
+
+img{
+    width: 355px;
+    object-fit: cover;
+
+    
+}
+
+
+    }
+
+    // lorem
+.lorem{
+overflow-x: hidden;
+    padding-left: 3px;
+    padding-top: 7px;
+    padding-bottom: 47px;
+  margin-left: 24px;
+  .flex{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+  }
+  .hd{
+    width:280px;
+    margin-right: 0px;
+    width: 500px;
+    margin-left: 0px;
+  }
+  h2{
+    font-size: $twobase-htwo;
+  }
+  img{
+    width: 90%;
+    text-align: center;
+    padding-left: 80px;
+   
+  }
+
+
+}
+
+
+#service{
+overflow-x: hidden;
+    padding-top: 50px;
+    padding-bottom: 25px;
+
+    padding-left: 0px;
+   padding-right: 0px;
+
+img{
+    width: 102%;
+    object-fit: cover;
+
+}
+.first-page{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p{
+    width: 222px;
+}
+.line{
+    width :220px;
+    border: 1px solid $orange;
+    margin: 0px;
+
+}
+.card-body {
+    padding: 6px;
+}
+
+
+h5{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-left: 24px;
+    padding-bottom: 0px;
+    font-size: $twobase-htwo;
+    margin-bottom: 10px;
+}
+.card{
+    
+        width: $two-card;
+        border: none;
+       
+    
+}
+
+
+span{
+    display: grid;
+   margin-top: 15px;
+} 
+.buttons{
+    display: none;
+}
+}
+
+
+
+
+#subscribe{
+    margin-left: 24px;
+    margin-right: 24px;
+overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+    .button{
+        padding: 20px;
+        width: 207px;
+        margin-left: 0px;
+        margin-right: 150px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+       }
+        a{
+           
+            font-size: 12px;
+            text-decoration: none;
+           font-weight: 100;
+        }
+        .h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            
+        }
+        h2{
+            font-size: $twobase-htwo;
+            margin-right: 10px;
+            margin-top: 30px;
+            margin-left: 0px;
+            width: 347px;
+
+        }
+        img{
+            width: 98%;
+            object-fit: cover;
+            margin-left: 6px;margin-right: 0px;
+        }
+
+
+        .scribe{
+         
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+           
+           
+    
+        }
+
+
+}
+
+
+
+
+
+
+
+
+#contact{
+    overflow: hidden;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    img{
+        width: 40%;
+        padding-left: 70px;
+        background-size: cover;
+        }
+        h2{
+            font-size: $twobase-htwo;
+            margin-bottom: 6px;
+        }
+        p{
+            font-size: $twobase-p;
+        }
+        .roll{
+            display: flex;
+            justify-content: flex-start;
+            
+        }
+ 
+
+a{
+   padding: 0px;
+    font-size: $twobase-asub;
+    font-weight: 200;
+    margin: 0px;
+  }
+ 
+
+
+.forms{
+    width: 584px;
+    margin-left: 0px;
+}
+.form-control{
+   
+    padding: 8px;
+    margin: 12px;
+    margin-left: 24px;
+    width: $two-forms;
+}
+
+
+  .button{
+margin-left:24px;
+width: $two-button;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+border-radius: 5px;
+  }
+  
+  img{
+    display: none;
+  }
+  
+  .get{
+     margin-right: 0px;
+     margin-left: 0px;
+}
+
+
+
+}
+
+.nowalls{
+    overflow: hidden;
+    .image{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        background-size:100%; 
+    }
+   
+    span{
+        font-size:5px;
+        color:$white;
+    }
+    
+    .pan{
+       width: $two-pan;
+        display: flex;
+        margin-left: 24px;
+        padding-top: 10px;
+
+    }
+
+    h2{
+        font-size: $twobase-htwo;
+        margin-left:24px;
+        margin-bottom: 3px;
+        font-weight: 200;
+    }
+    .phone{
+        margin-right: 50px;
+    }
+    p{
+        padding-left: 5px;
+    }
+
+
+}
+
+
+
+
+.log{
+    overflow: hidden;
+
+    img{
+       
+        width:15%;
+    }
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 920px) {
+
+
+   
+
+    nav{
+        img{
+         top: 6px;
+         position: "";
+        }
+         
+ #btn{
+     display: block;
+     margin-right: 30px;
+ }
+ 
+         a{
+            text-decoration: none;
+             margin: 0px;
+             font-size: $twobase-a
+         }
+         ul{
+             position: absolute;
+             width: 100%;
+             height: 40vh;
+             background: #000000f2;
+             top: 80px;
+             left: -100%;
+             text-align: center;
+ transition: all .5s;
+ padding-left: 0px;
+ 
+         }
+         li{
+             display: block;
+             margin: 25px 0;
+             line-height: 50px;
+         }
+         a{
+             font-size: $twobase-atwenty
+ 
+         }
+         #check:checked ~ ul{
+ left: 0;
+         }
+         #check:checked ~ lable #cancel{
+             display:block;
+             
+         }
+ 
+     }
+
+
+
+
+
+
+
+
+
+
+    .navbar{
+      
+    margin-right: 0px;
+a{
+    margin-left: 66px;
+    font-size: 16px;
+    
+}
+    
+       
+        .logo{
+        margin-left: 10px;
+            img{
+                width: 40%;
+            }
+        }
+
+        .navigation{
+            margin-right: 24px;
+        }
+    }
+           
+                
+        
+    
+
+
+
+
+
+
+   
+        a{
+            font-size: $twobase-a-;
+            margin-left: 5px;
+            
+        }
+    p{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+  
+
+   
+
+.head{
+    overflow-x: hidden;
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .now{
+        font-size: 33px;
+    }
+    .line{
+        width:34px;
+        
+        
+     }
+    
+}
+
+
+
+
+
+.home{
+    overflow-x: hidden;
+    padding-left: 26px;
+
+    margin-left: 0px;
+    padding-right: 24px;
+    margin-right: 0px;
+    .glass{
+
+            width: 100%;
+            height: 53.4vh;
+    }
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .lastimage{
+        display: none;
+    }
+   
+ .imageNumber-four{
+    display: none;
+ }
+ .faint{
+    display: none;
+ }
+ .lights{
+    display: none;
+ }
+ .lastcar{
+    display: none;
+ }
+ .likesky{
+    display: none;
+ }
+
+
+
+  
+
+
+    }
+
+    // lorem
+.lorem{
+overflow-x: hidden;
+    padding-left: 3px;
+    padding-top: 7px;
+    padding-bottom: 47px;
+  margin-left: 24px;
+  .flex{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+  }
+  .hd{
+    width:280px;
+    margin-right: 0px;
+    width: 500px;
+    margin-left: 0px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  img{
+    width: 90%;
+    text-align: center;
+    padding-left: 80px;
+   
+  }
+
+
+}
+
+
+#service{
+overflow-x: hidden;
+    padding-top: 50px;
+    padding-bottom: 25px;
+
+    padding-left: 0px;
+   padding-right: 0px;
+
+img{
+    width: 102%;
+    object-fit: cover;
+
+}
+.first-page{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p{
+    width: 222px;
+}
+.line{
+    width :220px;
+    border: 1px solid $orange;
+    margin: 0px;
+
+}
+.card-body {
+    padding: 6px;
+}
+
+
+h5{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-left: 24px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.card{
+    
+        width: 227px;
+        border: none;
+       
+    
+}
+
+
+span{
+    display: grid;
+   margin-top: 15px;
+} 
+.buttons{
+    display: none;
+}
+.carousel-inner {
+
+    padding-left: 20px;
+    padding-right: 8px;
+}
+
+}
+
+
+
+
+#subscribe{
+    margin-left: 24px;
+    margin-right: 24px;
+overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+    .button{
+        padding: 20px;
+        width: 207px;
+        margin-left: 0px;
+        margin-right: 150px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+       }
+        a{
+           
+            font-size: 12px;
+            text-decoration: none;
+           font-weight: 100;
+        }
+        .h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            
+        }
+        h2{
+            font-size: 25px;
+            margin-right: 10px;
+            margin-top: 30px;
+            margin-left: 0px;
+            width: 347px;
+
+        }
+        img{
+            width: 98%;
+            object-fit: cover;
+            margin-left: 6px;margin-right: 0px;
+        }
+
+
+        .scribe{
+         
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+           
+           
+    
+        }
+
+
+}
+
+
+
+
+
+
+
+
+#contact{
+    overflow: hidden;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    img{
+        width: 40%;
+        padding-left: 70px;
+        background-size: cover;
+        }
+        h2{
+            font-size: 25px;
+            margin-bottom: 6px;
+        }
+        p{
+            font-size: 12px;
+        }
+        .roll{
+            display: flex;
+            justify-content: flex-start;
+            
+        }
+ 
+
+a{
+   padding: 0px;
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0px;
+  }
+ 
+
+
+.forms{
+    width: 584px;
+    margin-left: 0px;
+}
+.form-control{
+   
+    padding: 10px;
+    margin: 12px;
+    margin-left: 24px;
+    width: 755px;
+}
+
+
+  .button{
+margin-left:24px;
+width: 755px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+border-radius: 5px;
+  }
+  
+  img{
+    display: none;
+  }
+  
+  .get{
+     margin-right: 0px;
+     margin-left: 0px;
+}
+
+
+
+}
+
+.nowalls{
+    overflow: hidden;
+    .image{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        background-size:100%; 
+    }
+   
+    span{
+        font-size:5px;
+        color:white;
+    }
+    
+    .pan{
+       width: 370px;
+        display: flex;
+        margin-left: 24px;
+        padding-top: 10px;
+
+    }
+
+    h2{
+        margin-left:24px;
+        margin-bottom: 3px;
+        font-weight: 200;
+    }
+    .phone{
+        margin-right: 50px;
+    }
+    p{
+        padding-left: 5px;
+    }
+
+
+}
+
+
+
+
+.log{
+    overflow: hidden;
+
+    img{
+       
+        width:15%;
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 921px) and (max-width: 1024px) {
+
+
+    .navbar{
+        margin-top: 8px;
+    overflow-x: hidden;
+        display: flex;
+
+        h2{
+            font-size: 18px;
+        }
+    
+       
+        .logo{
+            margin-left: 0px;
+            img{
+                width: 50%;
+            }
+        }
+        
+            a{
+                margin-left: 100px;
+                font-size: 17px;
+                // margin-left: 15px;
+                
+            }
+                
+        .navigation{
+            margin-right: 25px;
+        }
+    }
+
+
+
+
+
+
+    a{
+
+        font-family: "BalooBhaijaan-Regular";
+        text-decoration: none;
+        font-size: 31px;
+        margin-left: 35px;
+        font-weight:900 ;
+        color: $blue;
+    }
+
+    p{
+        font-size: 17px;
+    }
+    h2{
+        font-size: 35px;
+    }
+
+  
+
+   
+
+.head{
+    overflow-x: hidden;
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .now{
+        font-size: 40px;
+    }
+    .line{
+        width:34px;
+        
+        
+     }
+    
+}
+
+
+
+
+
+.home{
+    
+
+    
+        overflow: hidden;
+        padding-left: 25px;
+        margin-left: 0px;
+        padding-right: 25px;
+        margin-right: 0px;
+        .glass{
+            width: 100%;
+            height: 26.4vh;
+            object-fit: cover;
+        }
+        .lastimage{
+            height: 26.3vh;
+            width: 100%;
+            margin-top: 12px;
+            object-fit: cover;
+        }
+     .imageNumber-four{
+        padding-top: 190px;
+        object-fit: cover;
+     }
+     .faint{
+        height: 2.6vh;
+     }
+     .lights{
+        width: 281px;
+        object-fit: cover;
+        height: 2.6vh;
+     }
+     .lastcar{
+        height: 3.5vh;
+        width: 287px;
+     }
+     .likesky{
+        margin-left: 49px;
+    width: 135px;
+    height: 2.6vh;
+     }
+   
+
+    .pic1{
+        object-fit: cover;
+        width: 100%;
+        .car-img{
+            height: 17vh;
+            object-fit: cover;
+        }
+    }
+
+    }
+
+    // lorem
+.lorem{
+overflow-x: hidden;
+    padding-left: 3px;
+    padding-top: 45px;
+    padding-bottom: 72px;
+  margin-left: 25px;
+
+  .flex{
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+  }
+  .hd{
+    width:280px;
+    margin-right: 0px;
+    width: 500px;
+    margin-left: 0px;
+  }
+  h2{
+    font-size: 35px;
+  }
+  img{
+    width: 90%;
+    text-align: center;
+    padding-left: 80px;
+   
+  }
+
+
+}
+
+
+#service{
+overflow-x: hidden;
+    padding-top: 72px;
+    padding-bottom: 42px;
+
+    padding-left: 0px;
+   padding-right: 0px;
+
+img{
+    width: 102%;
+    object-fit: cover;
+
+}
+a{
+    margin-left: 3px;
+}
+.first-page{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.line{
+    width :298px;
+    border: 1px solid $orange;
+    margin: 0px;
+
+}
+.card-body {
+    padding: 6px;
+}
+
+
+h5{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-left: 25px;
+    padding-bottom: 0px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.card{
+    
+        width: 300px;
+        border: none;
+       
+    
+}
+
+
+span{
+    
+    display: grid;
+   margin-top: 13px;
+} 
+
+.carousel-inner {
+    font-family: "BalooBhaijaan-Regular";
+    padding-left: 25px;
+    padding-right: 25px;
+}
+}
+
+
+
+
+#subscribe{
+    margin-left: 25px;
+    margin-right: 25px;
+overflow: hidden;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  
+    .button{
+        padding: 20px;
+        width: 232px;
+        margin-left: 0px;
+        margin-right: 125px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+       }
+        a{
+           
+            font-size: 17px;
+            text-decoration: none;
+           font-weight: 100;
+        }
+        .h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            
+        }
+        h2{
+            font-size: 25px;
+            margin-right: 10px;
+            margin-top: 30px;
+            margin-left: 0px;
+            width: 347px;
+
+        }
+        img{
+            width: 98%;
+            object-fit: cover;
+            margin-left: 6px;margin-right: 0px;
+        }
+
+
+        .scribe{
+         
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+           
+           
+    
+        }
+
+
+}
+
+
+
+
+
+
+
+
+#contact{
+    padding-right: 30px;
+    overflow: hidden;
+    padding-top: 30px;
+    margin-bottom: 70px;
+    img{
+        width: 100%;
+        padding-left: 25px;
+        background-size: cover;
+        margin-right: 0px;
+        }
+        h2{
+            font-size: 35px;
+            margin-bottom: 6px;
+        }
+        p{
+            font-size: 17px;
+        }
+        .roll{
+            display: flex;
+            justify-content: flex-start;
+            
+        }
+ 
+
+a{
+   padding: 0px;
+    font-size: 17px;
+    font-weight: 200;
+    margin: 0px;
+  }
+ 
+
+
+.forms{
+    width: 584px;
+    margin-left: 0px;
+}
+.form-control{
+//    margin-top: 8px;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 50px;
+    width: 533px;
+
+}
+
+
+  .button{
+margin-left:50px;
+width: 533px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 8px;
+border-radius: 5px;
+  }
+  
+  
+  
+  .get{
+     margin-right: 0px;
+     margin-left: 0px;
+}
+
+
+
+}
+
+
+.nowalls{
+    overflow: hidden;
+    padding-bottom: 0px;
+    .image{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        background-size:100%; 
+    }
+   
+    span{
+        font-size:5px;
+        color:white;
+    }
+    
+    .pan{
+       width: 430px;
+        display: flex;
+        margin-left: 25px;
+        padding-top: 10px;
+
+    }
+
+    h2{
+        margin-left:25px;
+        margin-bottom: 3px;
+        font-weight: 200;
+    }
+    .phone{
+        margin-right: 50px;
+    }
+    p{
+        padding-left: 5px;
+    }
+
+
+}
+
+
+
+
+.log{
+    overflow: hidden;
+
+    img{
+       
+        width:15%;
+    }
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1366px){
+
+
+
+
+    .navbar{
+        overflow-x: hidden;
+            display: flex;
+
+            margin-left: 15px;
+            margin-right: 62px;
+    
+            h2{
+                font-size: 32px;
+            }
+        
+           
+            .logo{
+                margin-left: 0px;
+                img{
+                    width: 100%;
+                }
+            }
+            
+                a{
+                    font-size: 31px;
+                    margin-left: 35px;
+                    font-weight: 900;
+                    
+                }
+                .navigation{
+                    margin-right: 0px;
+                }    
+            
+        }
+    
+    
+    
+    
+    
+    
+        a{
+    
+            font-size: 31px;
+            margin-left: 35px;
+            font-weight:900 ;
+            
+        }
+    
+        p{
+            font-size: 18px;
+        }
+        h2{
+            font-size: 35px;
+        }
+    
+      
+    
+       
+    
+    .head{
+        overflow-x: hidden;
+        h1{
+            font-size: 75px;
+        }
+        h2{
+            font-size: 40px;
+        }
+        .now{
+            font-size: 52px;
+        }
+        .line{
+            width:72px;
+            
+            
+         }
+        
+    }
+    
+    
+    
+    
+    
+    .home{
+        
+    
+        
+            overflow: hidden;
+            padding-left: 62px;
+            margin-left: 0px;
+            padding-right: 62px;
+            margin-right: 0px;
+            .glass{
+                width: 100%;
+                height: 62vh;
+                object-fit: cover;
+                object-fit: cover;
+            }
+            .lastimage{
+                margin-top: 12px;
+                width: 100%;
+                height: 61.8vh;
+                object-fit: cover;
+                
+            }
+         .imageNumber-four{
+            padding-top: 190px;
+            object-fit: cover;
+            height: 63.8vh;
+           
+         }
+         .faint{
+            height: 8vh;
+            object-fit: cover;
+         }
+         .lights{
+            width: 350px;
+            object-fit: cover;
+            height: 8vh;
+            object-fit: cover;
+         }
+        
+         .lastcar{
+
+               margin-left: 37px;
+               width: 373px;
+           
+           
+           
+            object-fit: cover;
+            
+            
+            }
+
+
+
+         .likesky{
+            margin-left: 26px;
+        width: 208px;
+        height: 8vh;
+        object-fit: cover;
+        opacity: 100%;
+         }
+        
+       
+    
+        .pic1{
+            object-fit: cover;
+            width: 100%;
+            .car-img{
+                height: 36.9vh;
+                object-fit: cover;
+            }
+           
+        }
+        .imageNumber-four{
+                 padding-top: 159.1px;
+               }
+    
+        }
+    
+        // lorem
+    .lorem{
+    overflow-x: hidden;
+        padding-left: 3px;
+        padding-top: 55px;
+        padding-bottom: 70px;
+      margin-left: 25px;
+      .flex{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        
+      }
+      .hd{
+       
+        margin-right: 0px;
+        width: 500px;
+        margin-left: 0px;
+      }
+      h2{
+        font-size: 38px;
+      }
+    
+    }
+    
+    
+    #service{
+    overflow-x: hidden;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    
+        padding-left: 32px;
+       padding-right: 39px;
+    
+    img{
+        width: 102%;
+        object-fit: cover;
+    
+    }
+    a{
+        margin-left: 3px;
+    }
+    .first-page{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    
+    .line{
+        width :380px;
+        border: 1px solid $orange;
+        margin: 0px;
+    
+    }
+    .card-body {
+        padding: 6px;
+    }
+    
+    
+    h2{
+        margin-left: 25px;
+        padding-bottom: 0px;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .card{
+        margin: 10px;
+            border: none;
+           
+        
+    }
+    
+    span{
+        display: grid;
+       margin-top: 15px;
+    } 
+    
+    .carousel-inner {
+        font-family: "BalooBhaijaan-Regular";
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    }
+    
+    
+    
+    
+    #subscribe{
+        margin-left: 62px;
+        margin-right: 62px;
+    overflow: hidden;
+        padding-top: 70px;
+        padding-bottom: 70px;
+      
+        .button{
+            padding: 20px;
+            width: 290px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+            margin-top: 10px;
+            margin-right: 100px;
+           }
+            a{
+               
+                font-size: 22px;
+                text-decoration: none;
+               font-weight: 100;
+            }
+            
+           
+            img{
+                width: 98%;
+                object-fit: cover;
+                margin-left: 6px;margin-right: 0px;
+            }
+    
+    
+            .scribe{
+             
+                display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+               
+               
+        
+            }
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    #contact{
+        padding-top: 70;
+        padding-left: 62px;
+        padding-right: 62px;
+        margin-bottom: 70px;
+        
+        img{
+            width: 80%;
+            
+            }
+            h2{
+                font-size: 36px;
+                margin-bottom: 6px;
+            }
+            p{
+                font-size: 17px;
+            }
+            .roll{
+                display: flex;
+                justify-content: flex-start;
+                
+            }
+     
+    
+    a{
+       padding: 20px;
+        font-size: 20px;
+        font-weight: 200;
+       
+      }
+     
+    
+    
+    .forms{
+        width: 545px;
+       
+    }
+    .form-control{
+       font-size: 18px;
+        padding: 15px;
+        margin: 15px;
+        margin-left: 38px;
+    }
+    
+    
+      .button{
+    margin-left:111px;
+    width: 545px;
+   
+    padding: 15px;
+    border-radius: 5px;
+      }
+      
+    }
+    
+    
+    .nowalls{
+        overflow: hidden;
+        .image{
+                padding-top: 70px;
+                padding-bottom: 70px;
+            background-size:100%; 
+        }
+       
+        span{
+            font-size:5px;
+            color:white;
+        }
+        
+        .pan{
+           width: 430px;
+            display: flex;
+            margin-left: 62px;
+            padding-top: 10px;
+    
+        }
+    
+        h2{
+            margin-left:62px;
+            margin-bottom: 3px;
+            font-weight: 200;
+        }
+       
+        p{
+            padding-left: 5px;
+        }
+    
+    
+    }
+    
+    
+    
+    
+    .log{
+        overflow: hidden;
+    
+        img{
+           
+            width:15%;
+        }
+    }
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+

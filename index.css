@@ -1,0 +1,2005 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Baloo2-Regular";
+  src: url("Baloo2-Regular.ttf");
+}
+@font-face {
+  font-family: "BalooBhaijaan-Regular";
+  src: url("BalooBhaijaan-Regular.ttf");
+}
+.hammenu .overlay {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.hammenu .overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.hammenu .overlay a {
+  font-family: "Baloo2-Regular";
+  font-weight: 400;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.hammenu .overlay a:hover, .hammenu .overlay a:focus {
+  color: #f1f1f1;
+}
+.hammenu .overlay .closebtn {
+  position: absolute;
+  top: -27px;
+  right: 12px;
+  font-size: 60px;
+}
+.hammenu span {
+  font-family: "BalooBhaijaan-Regular";
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+  padding-top: 6px;
+}
+.hammenu .logo {
+  background-color: #ffffff;
+  width: 100%;
+}
+.hammenu .logo img {
+  width: 30%;
+}
+
+@media screen and (min-width: 769px) {
+  .hammenu {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  nav {
+    display: none;
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a {
+  font-family: "BalooBhaijaan-Regular";
+  text-decoration: none;
+  font-size: 31px;
+  margin-left: 35px;
+  font-weight: 900;
+  color: rgb(0, 62, 84);
+}
+.navbar .con {
+  font-family: "BalooBhaijaan-Regular";
+  color: rgb(215, 123, 65);
+}
+.navbar .navigation {
+  font-family: "BalooBhaijaan-Regular";
+  margin-right: 50px;
+}
+.navbar .logo {
+  margin-left: 15px;
+}
+
+.home {
+  padding-left: 60px;
+  margin-right: 60px;
+}
+.home h1 {
+  font-family: "BalooBhaijaan-Regular";
+  font-size: 73px;
+  font-weight: 400;
+  color: rgb(0, 62, 84);
+}
+.home .imageNumber-four {
+  padding-top: 171px;
+}
+.home .lastimage {
+  height: 63vh;
+  width: 99%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0.5px 100px 50px white;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+.home .pic1 {
+  display: flex;
+  flex-direction: column;
+}
+.home .pic1 img {
+  margin: 2px;
+  margin-top: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .pic1 .faq {
+  padding-top: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .pic1 .car-img {
+  height: 37.2vh;
+  margin-top: 5.9px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .glass {
+  width: 100%;
+  height: 62vh;
+  margin-left: 0.5px;
+  margin-top: 12px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .faint {
+  height: 8vh;
+  opacity: 30%;
+  filter: alpha(opacity=30);
+  box-shadow: 3px 10px 100px black;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .lights {
+  width: 330px;
+  height: 7.5vh;
+  opacity: 30%;
+  filter: alpha(opacity=30);
+  box-shadow: 3px 10px 100px black;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .likesky {
+  width: 205px;
+  margin-left: 27px;
+  box-shadow: 3px 10px 100px black;
+  opacity: 30%;
+  filter: alpha(opacity=30);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home .lastcar {
+  margin-left: 34px;
+  width: 375px;
+  opacity: 30%;
+  filter: alpha(opacity=30);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home h2 {
+  font-family: "BalooBhaijaan-Regular";
+  font-size: 38px;
+  font-weight: 400;
+  color: rgb(0, 62, 84);
+}
+.home p {
+  font-family: "BalooBhaijaan-Regular";
+  font-weight: bolder;
+}
+.home .website {
+  font-weight: 400;
+}
+.home .now {
+  font-family: "BalooBhaijaan-Regular";
+  color: rgb(215, 123, 65);
+  font-size: 50px;
+  font-weight: 400;
+}
+.home .line {
+  width: 70px;
+  border: 1px solid rgb(215, 123, 65);
+}
+.home span {
+  display: inline-block;
+  margin: 3px;
+}
+.home p {
+  font-family: "BalooBhaijaan-Regular";
+  color: rgb(0, 62, 84);
+}
+
+.lorem {
+  padding-top: 50px;
+  padding-bottom: 85px;
+}
+.lorem h2 {
+  font-family: "BalooBhaijaan-Regular";
+  color: rgb(215, 123, 65);
+  font-size: 36px;
+}
+.lorem p {
+  font-family: "Baloo2-Regular";
+  color: rgb(0, 62, 84);
+  line-height: 1.3;
+}
+.lorem .flex {
+  font-family: "BalooBhaijaan-Regular";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lorem .hd {
+  font-family: "BalooBhaijaan-Regular";
+  margin-left: 80px;
+}
+
+#service {
+  background-color: rgb(0, 62, 84);
+  padding-top: 92px;
+  padding-bottom: 65px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#service h2 {
+  font-family: "BalooBhaijaan-Regular";
+  padding-bottom: 40px;
+  color: white;
+  font-weight: 400;
+  font-size: 36px;
+  margin-left: 20px;
+}
+#service .card {
+  font-family: "BalooBhaijaan-Regular";
+  background-color: rgb(0, 62, 84);
+  color: white;
+  margin: 6px;
+}
+#service .navbar {
+  font-family: "BalooBhaijaan-Regular";
+  display: flex;
+  justify-content: space-between;
+}
+#service h5 {
+  font-family: "BalooBhaijaan-Regular";
+  color: rgb(215, 123, 65);
+}
+#service .line {
+  width: 330px;
+  border: 1px solid rgb(215, 123, 65);
+}
+#service style {
+  display: inline-block;
+  margin: 3px;
+}
+#service .bar {
+  width: 10px;
+  border: 8px solid white;
+  border-radius: 15px;
+}
+#service .bar:active {
+  width: 8px;
+  border: 8px solid rgb(215, 123, 65);
+  border-radius: 15px;
+}
+#service .circle {
+  width: 8px;
+  border: 8px solid #ffffff;
+  border-radius: 50px;
+}
+#service .circle2 {
+  width: 10px;
+  border: 8px solid #ffffff;
+  border-radius: 15px;
+}
+#service span {
+  display: grid;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+#service .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#service .first-page {
+  display: flex;
+}
+#service .second-page {
+  display: flex;
+}
+#service .third-project {
+  display: flex;
+}
+#service .carousel-inner {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#service p {
+  font-family: "Baloo2-Regular";
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.home h1 {
+  font-family: "BalooBhaijaan-Regular";
+  font-size: 73px;
+  font-weight: 900;
+}
+.home h2 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "BalooBhaijaan-Regular";
+}
+.home p {
+  font-weight: 400;
+  font-weight: bolder;
+  font-family: "Baloo2-Regular";
+}
+.home img {
+  width: 100%;
+}
+
+#subscribe {
+  overflow: hidden;
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#subscribe .h2 {
+  font-family: "BalooBhaijaan-Regular";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#subscribe .scribe {
+  font-family: "BalooBhaijaan-Regular";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+#subscribe img {
+  margin-right: 40px;
+}
+#subscribe .button {
+  font-weight: 400;
+  font-family: "BalooBhaijaan-Regular";
+  padding-bottom: 10px;
+  background-color: rgb(0, 62, 84);
+  padding: 20px;
+  text-align: center;
+  width: 325px;
+  margin-right: 70px;
+}
+#subscribe a {
+  font-weight: 400;
+  font-family: "BalooBhaijaan-Regular";
+  margin-top: 20px;
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+}
+#subscribe h2 {
+  font-weight: 400;
+  font-family: "BalooBhaijaan-Regular";
+  color: rgb(215, 123, 65);
+  font-size: 36px;
+  margin-left: 100px;
+}
+
+#contact {
+  overflow: hidden;
+  background-color: rgb(243, 244, 246);
+  padding-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+#contact img {
+  width: 80%;
+  margin-right: 90px;
+  background-size: cover;
+}
+#contact .forms {
+  width: 548px;
+  font-family: "BalooBhaijaan-Regular";
+  margin-left: 73px;
+  margin-bottom: 8px;
+}
+#contact a {
+  font-family: "Baloo2-Regular";
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+}
+#contact .button {
+  width: 545px;
+  margin-left: 90px;
+  background-color: rgb(0, 62, 84);
+  padding: 20px;
+}
+#contact h2 {
+  font-family: "BalooBhaijaan-Regular";
+  color: rgb(215, 123, 65);
+  font-size: 36px;
+  font-weight: 400;
+}
+#contact p {
+  font-family: "Baloo2-Regular";
+  font-size: 16px;
+  color: rgb(0, 62, 84);
+  font-weight: 400;
+  line-height: 1.3;
+}
+#contact .form-control {
+  font-family: "Baloo2-Regular";
+  padding: 16px;
+  color: rgb(128, 151, 160);
+  margin: 16px;
+  font-weight: 400;
+}
+#contact .get {
+  font-family: "BalooBhaijaan-Regular";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 90px;
+}
+#contact .roll {
+  display: flex;
+  justify-content: center;
+}
+#contact .fill {
+  padding-top: 30px;
+}
+
+.nowalls .image {
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("images/Group 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.nowalls h2 {
+  margin-left: 70px;
+  font-weight: 400;
+}
+.nowalls .pan {
+  margin-left: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+.nowalls .phone {
+  font-family: "Baloo2-Regular";
+  display: flex;
+}
+.nowalls .gps {
+  display: flex;
+}
+.nowalls .icon {
+  margin: 2px;
+}
+.nowalls p {
+  font-family: "Baloo2-Regular";
+  padding-left: 15px;
+  font-weight: 400;
+}
+.nowalls h2 {
+  font-family: "BalooBhaijaan-Regular";
+}
+
+.log .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .munehamb logo {
+    font-family: Montserrat;
+    color: #ffffff;
+    background-color: #1B252F;
+    padding-top: 10px;
+    position: absolute;
+    padding-left: 10px;
+    width: 100%;
+  }
+  .munehamb logo p {
+    font-size: 18px;
+  }
+  .navbar {
+    display: none;
+  }
+  a {
+    font-family: "BalooBhaijaan-Regular";
+    text-decoration: none;
+    font-size: 31px;
+    margin-left: 35px;
+    font-weight: 900;
+    color: rgb(0, 62, 84);
+  }
+  p {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .head h1 {
+    font-size: 25px;
+  }
+  .head h2 {
+    font-size: 18px;
+  }
+  .head .now {
+    font-size: 22px;
+  }
+  .head .line {
+    width: 24px;
+    border: 1px solid rgb(215, 123, 65);
+  }
+  .home {
+    overflow: hidden;
+    padding-left: 16px;
+    margin-left: 0px;
+    padding-right: 20px;
+    margin-right: 0px;
+  }
+  .home .glass {
+    display: none;
+  }
+  .home .lastimage {
+    display: none;
+  }
+  .home .imageNumber-four {
+    display: none;
+  }
+  .home .faint {
+    display: none;
+  }
+  .home .lights {
+    display: none;
+  }
+  .home .lastcar {
+    display: none;
+  }
+  .home .likesky {
+    display: none;
+  }
+  .lorem {
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 37px;
+    overflow: hidden;
+  }
+  .lorem .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .lorem .hd {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .lorem h2 {
+    font-size: 18px;
+  }
+  .lorem img {
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 45px;
+  }
+  #service {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #service img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #service .first-page {
+    display: flex;
+    flex-direction: column;
+  }
+  #service .line {
+    width: 318px;
+    border: 1px solid rgb(215, 123, 65);
+  }
+  #service h2 {
+    margin-left: 20px;
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  #service .card {
+    width: 335px;
+    border: none;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #service span {
+    display: grid;
+    margin-top: 15px;
+  }
+  #service .buttons {
+    display: none;
+  }
+  #service .card-body {
+    padding: 4px;
+  }
+  #service .carousel-inner {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #subscribe {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  #subscribe .button {
+    margin-right: 0px;
+    padding: 20px;
+    width: 155px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  #subscribe a {
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  #subscribe .h2 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 85px;
+  }
+  #subscribe h2 {
+    font-size: 18px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #subscribe img {
+    width: 101%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #subscribe .scribe {
+    display: flex;
+    flex-direction: column;
+  }
+  #contact {
+    padding-top: 0px;
+    margin-bottom: 40px;
+  }
+  #contact img {
+    width: 40%;
+    padding-left: 70px;
+    background-size: cover;
+  }
+  #contact h2 {
+    font-size: 18px;
+  }
+  #contact p {
+    font-size: 10px;
+  }
+  #contact a {
+    padding: 0px;
+    font-size: 10px;
+    font-weight: 200;
+    margin: 0px;
+  }
+  #contact .h2 {
+    margin-bottom: 6px;
+    display: flex;
+  }
+  #contact .button {
+    width: 155px;
+    margin-left: 171px;
+    border-radius: 5px;
+  }
+  #contact .form-control {
+    margin: 8px;
+    margin-left: 71px;
+    width: 336px;
+    padding: 5px;
+    font-size: 10px;
+  }
+  #contact p {
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+  #contact .button {
+    margin-left: 144px;
+    width: 334px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  #contact img {
+    display: none;
+  }
+  #contact .get {
+    margin-left: 0px;
+  }
+  .nowalls .image {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background-size: 100%;
+  }
+  .nowalls span {
+    font-size: 5px;
+    color: white;
+  }
+  .nowalls .pan {
+    width: 245px;
+    display: flex;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nowalls h2 {
+    margin-left: 20px;
+    margin-bottom: 3px;
+  }
+  .nowalls p {
+    padding-left: 5px;
+  }
+  .log img {
+    width: 30%;
+  }
+}
+@media (min-width: 576px) {
+  .topnav {
+    display: none;
+  }
+  .mobile-container {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .hammenu .logo img {
+    padding-top: 9px;
+  }
+  .hammenu .overlay {
+    height: 56%;
+  }
+  .hammenu span {
+    margin-right: 20px;
+    padding-top: 36px;
+  }
+  .hammenu .overlay .closebtn {
+    position: absolute;
+    top: -31px;
+    right: 5px;
+    font-size: 60px;
+  }
+  .navbar {
+    display: none;
+  }
+  a {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .head {
+    overflow-x: hidden;
+  }
+  .head h1 {
+    font-size: 40px;
+  }
+  .head h2 {
+    font-size: 25px;
+  }
+  .head .now {
+    font-size: 33px;
+  }
+  .head .line {
+    width: 34px;
+  }
+  .home {
+    overflow-x: hidden;
+    padding-left: 26px;
+    margin-left: 0px;
+    padding-right: 24px;
+    margin-right: 0px;
+  }
+  .home .glass {
+    width: 355px;
+    height: 55vh;
+  }
+  .home .col-md-3 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .home .lastimage {
+    display: none;
+  }
+  .home .imageNumber-four {
+    display: none;
+  }
+  .home .faint {
+    display: none;
+  }
+  .home .lights {
+    display: none;
+  }
+  .home .lastcar {
+    display: none;
+  }
+  .home .likesky {
+    display: none;
+  }
+  .home img {
+    width: 355px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .lorem {
+    overflow-x: hidden;
+    padding-left: 3px;
+    padding-top: 7px;
+    padding-bottom: 47px;
+    margin-left: 24px;
+  }
+  .lorem .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lorem .hd {
+    width: 280px;
+    margin-right: 0px;
+    width: 500px;
+    margin-left: 0px;
+  }
+  .lorem h2 {
+    font-size: 25px;
+  }
+  .lorem img {
+    width: 90%;
+    text-align: center;
+    padding-left: 80px;
+  }
+  #service {
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #service img {
+    width: 102%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #service .first-page {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #service p {
+    width: 222px;
+  }
+  #service .line {
+    width: 220px;
+    border: 1px solid rgb(215, 123, 65);
+    margin: 0px;
+  }
+  #service .card-body {
+    padding: 6px;
+  }
+  #service h5 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  #service h2 {
+    margin-left: 24px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  #service .card {
+    width: 227px;
+    border: none;
+  }
+  #service span {
+    display: grid;
+    margin-top: 15px;
+  }
+  #service .buttons {
+    display: none;
+  }
+  #subscribe {
+    margin-left: 24px;
+    margin-right: 24px;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #subscribe .button {
+    padding: 20px;
+    width: 207px;
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  #subscribe a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  #subscribe .h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  #subscribe h2 {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 347px;
+  }
+  #subscribe img {
+    width: 98%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-left: 6px;
+    margin-right: 0px;
+  }
+  #subscribe .scribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #contact {
+    overflow: hidden;
+    padding-top: 10px;
+    margin-bottom: 50px;
+  }
+  #contact img {
+    width: 40%;
+    padding-left: 70px;
+    background-size: cover;
+  }
+  #contact h2 {
+    font-size: 25px;
+    margin-bottom: 6px;
+  }
+  #contact p {
+    font-size: 12px;
+  }
+  #contact .roll {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #contact a {
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0px;
+  }
+  #contact .forms {
+    width: 584px;
+    margin-left: 0px;
+  }
+  #contact .form-control {
+    padding: 8px;
+    margin: 12px;
+    margin-left: 24px;
+    width: 719px;
+  }
+  #contact .button {
+    margin-left: 24px;
+    width: 719px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  #contact img {
+    display: none;
+  }
+  #contact .get {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .nowalls {
+    overflow: hidden;
+  }
+  .nowalls .image {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-size: 100%;
+  }
+  .nowalls span {
+    font-size: 5px;
+    color: #ffffff;
+  }
+  .nowalls .pan {
+    width: 370px;
+    display: flex;
+    margin-left: 24px;
+    padding-top: 10px;
+  }
+  .nowalls h2 {
+    font-size: 25px;
+    margin-left: 24px;
+    margin-bottom: 3px;
+    font-weight: 200;
+  }
+  .nowalls .phone {
+    margin-right: 50px;
+  }
+  .nowalls p {
+    padding-left: 5px;
+  }
+  .log {
+    overflow: hidden;
+  }
+  .log img {
+    width: 15%;
+  }
+}
+@media (min-width: 769px) and (max-width: 920px) {
+  nav img {
+    top: 6px;
+    position: "";
+  }
+  nav #btn {
+    display: block;
+    margin-right: 30px;
+  }
+  nav a {
+    text-decoration: none;
+    margin: 0px;
+    font-size: 17px;
+  }
+  nav ul {
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.9490196078);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    padding-left: 0px;
+  }
+  nav li {
+    display: block;
+    margin: 25px 0;
+    line-height: 50px;
+  }
+  nav a {
+    font-size: 20px;
+  }
+  nav #check:checked ~ ul {
+    left: 0;
+  }
+  nav #check:checked ~ lable #cancel {
+    display: block;
+  }
+  .navbar {
+    margin-right: 0px;
+  }
+  .navbar a {
+    margin-left: 66px;
+    font-size: 16px;
+  }
+  .navbar .logo {
+    margin-left: 10px;
+  }
+  .navbar .logo img {
+    width: 40%;
+  }
+  .navbar .navigation {
+    margin-right: 24px;
+  }
+  a {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .head {
+    overflow-x: hidden;
+  }
+  .head h1 {
+    font-size: 40px;
+  }
+  .head h2 {
+    font-size: 25px;
+  }
+  .head .now {
+    font-size: 33px;
+  }
+  .head .line {
+    width: 34px;
+  }
+  .home {
+    overflow-x: hidden;
+    padding-left: 26px;
+    margin-left: 0px;
+    padding-right: 24px;
+    margin-right: 0px;
+  }
+  .home .glass {
+    width: 100%;
+    height: 53.4vh;
+  }
+  .home .col-md-3 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .home .lastimage {
+    display: none;
+  }
+  .home .imageNumber-four {
+    display: none;
+  }
+  .home .faint {
+    display: none;
+  }
+  .home .lights {
+    display: none;
+  }
+  .home .lastcar {
+    display: none;
+  }
+  .home .likesky {
+    display: none;
+  }
+  .lorem {
+    overflow-x: hidden;
+    padding-left: 3px;
+    padding-top: 7px;
+    padding-bottom: 47px;
+    margin-left: 24px;
+  }
+  .lorem .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lorem .hd {
+    width: 280px;
+    margin-right: 0px;
+    width: 500px;
+    margin-left: 0px;
+  }
+  .lorem h2 {
+    font-size: 25px;
+  }
+  .lorem img {
+    width: 90%;
+    text-align: center;
+    padding-left: 80px;
+  }
+  #service {
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #service img {
+    width: 102%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #service .first-page {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #service p {
+    width: 222px;
+  }
+  #service .line {
+    width: 220px;
+    border: 1px solid rgb(215, 123, 65);
+    margin: 0px;
+  }
+  #service .card-body {
+    padding: 6px;
+  }
+  #service h5 {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  #service h2 {
+    margin-left: 24px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  #service .card {
+    width: 227px;
+    border: none;
+  }
+  #service span {
+    display: grid;
+    margin-top: 15px;
+  }
+  #service .buttons {
+    display: none;
+  }
+  #service .carousel-inner {
+    padding-left: 20px;
+    padding-right: 8px;
+  }
+  #subscribe {
+    margin-left: 24px;
+    margin-right: 24px;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #subscribe .button {
+    padding: 20px;
+    width: 207px;
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  #subscribe a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  #subscribe .h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  #subscribe h2 {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 347px;
+  }
+  #subscribe img {
+    width: 98%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-left: 6px;
+    margin-right: 0px;
+  }
+  #subscribe .scribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #contact {
+    overflow: hidden;
+    padding-top: 10px;
+    margin-bottom: 50px;
+  }
+  #contact img {
+    width: 40%;
+    padding-left: 70px;
+    background-size: cover;
+  }
+  #contact h2 {
+    font-size: 25px;
+    margin-bottom: 6px;
+  }
+  #contact p {
+    font-size: 12px;
+  }
+  #contact .roll {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #contact a {
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0px;
+  }
+  #contact .forms {
+    width: 584px;
+    margin-left: 0px;
+  }
+  #contact .form-control {
+    padding: 10px;
+    margin: 12px;
+    margin-left: 24px;
+    width: 755px;
+  }
+  #contact .button {
+    margin-left: 24px;
+    width: 755px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  #contact img {
+    display: none;
+  }
+  #contact .get {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .nowalls {
+    overflow: hidden;
+  }
+  .nowalls .image {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: 100%;
+  }
+  .nowalls span {
+    font-size: 5px;
+    color: white;
+  }
+  .nowalls .pan {
+    width: 370px;
+    display: flex;
+    margin-left: 24px;
+    padding-top: 10px;
+  }
+  .nowalls h2 {
+    margin-left: 24px;
+    margin-bottom: 3px;
+    font-weight: 200;
+  }
+  .nowalls .phone {
+    margin-right: 50px;
+  }
+  .nowalls p {
+    padding-left: 5px;
+  }
+  .log {
+    overflow: hidden;
+  }
+  .log img {
+    width: 15%;
+  }
+}
+@media (min-width: 921px) and (max-width: 1024px) {
+  .navbar {
+    margin-top: 8px;
+    overflow-x: hidden;
+    display: flex;
+  }
+  .navbar h2 {
+    font-size: 18px;
+  }
+  .navbar .logo {
+    margin-left: 0px;
+  }
+  .navbar .logo img {
+    width: 50%;
+  }
+  .navbar a {
+    margin-left: 100px;
+    font-size: 17px;
+  }
+  .navbar .navigation {
+    margin-right: 25px;
+  }
+  a {
+    font-family: "BalooBhaijaan-Regular";
+    text-decoration: none;
+    font-size: 31px;
+    margin-left: 35px;
+    font-weight: 900;
+    color: rgb(0, 62, 84);
+  }
+  p {
+    font-size: 17px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .head {
+    overflow-x: hidden;
+  }
+  .head h1 {
+    font-size: 50px;
+  }
+  .head h2 {
+    font-size: 35px;
+  }
+  .head .now {
+    font-size: 40px;
+  }
+  .head .line {
+    width: 34px;
+  }
+  .home {
+    overflow: hidden;
+    padding-left: 25px;
+    margin-left: 0px;
+    padding-right: 25px;
+    margin-right: 0px;
+  }
+  .home .glass {
+    width: 100%;
+    height: 26.4vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home .lastimage {
+    height: 26.3vh;
+    width: 100%;
+    margin-top: 12px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home .imageNumber-four {
+    padding-top: 190px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home .faint {
+    height: 2.6vh;
+  }
+  .home .lights {
+    width: 281px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 2.6vh;
+  }
+  .home .lastcar {
+    height: 3.5vh;
+    width: 287px;
+  }
+  .home .likesky {
+    margin-left: 49px;
+    width: 135px;
+    height: 2.6vh;
+  }
+  .home .pic1 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .home .pic1 .car-img {
+    height: 17vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .lorem {
+    overflow-x: hidden;
+    padding-left: 3px;
+    padding-top: 45px;
+    padding-bottom: 72px;
+    margin-left: 25px;
+  }
+  .lorem .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lorem .hd {
+    width: 280px;
+    margin-right: 0px;
+    width: 500px;
+    margin-left: 0px;
+  }
+  .lorem h2 {
+    font-size: 35px;
+  }
+  .lorem img {
+    width: 90%;
+    text-align: center;
+    padding-left: 80px;
+  }
+  #service {
+    overflow-x: hidden;
+    padding-top: 72px;
+    padding-bottom: 42px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #service img {
+    width: 102%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #service a {
+    margin-left: 3px;
+  }
+  #service .first-page {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #service .line {
+    width: 298px;
+    border: 1px solid rgb(215, 123, 65);
+    margin: 0px;
+  }
+  #service .card-body {
+    padding: 6px;
+  }
+  #service h5 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  #service h2 {
+    margin-left: 25px;
+    padding-bottom: 0px;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  #service .card {
+    width: 300px;
+    border: none;
+  }
+  #service span {
+    display: grid;
+    margin-top: 13px;
+  }
+  #service .carousel-inner {
+    font-family: "BalooBhaijaan-Regular";
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #subscribe {
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow: hidden;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  #subscribe .button {
+    padding: 20px;
+    width: 232px;
+    margin-left: 0px;
+    margin-right: 125px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  #subscribe a {
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  #subscribe .h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  #subscribe h2 {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 347px;
+  }
+  #subscribe img {
+    width: 98%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-left: 6px;
+    margin-right: 0px;
+  }
+  #subscribe .scribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #contact {
+    padding-right: 30px;
+    overflow: hidden;
+    padding-top: 30px;
+    margin-bottom: 70px;
+  }
+  #contact img {
+    width: 100%;
+    padding-left: 25px;
+    background-size: cover;
+    margin-right: 0px;
+  }
+  #contact h2 {
+    font-size: 35px;
+    margin-bottom: 6px;
+  }
+  #contact p {
+    font-size: 17px;
+  }
+  #contact .roll {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #contact a {
+    padding: 0px;
+    font-size: 17px;
+    font-weight: 200;
+    margin: 0px;
+  }
+  #contact .forms {
+    width: 584px;
+    margin-left: 0px;
+  }
+  #contact .form-control {
+    padding: 8px;
+    margin: 8px;
+    margin-left: 50px;
+    width: 533px;
+  }
+  #contact .button {
+    margin-left: 50px;
+    width: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  #contact .get {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .nowalls {
+    overflow: hidden;
+    padding-bottom: 0px;
+  }
+  .nowalls .image {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-size: 100%;
+  }
+  .nowalls span {
+    font-size: 5px;
+    color: white;
+  }
+  .nowalls .pan {
+    width: 430px;
+    display: flex;
+    margin-left: 25px;
+    padding-top: 10px;
+  }
+  .nowalls h2 {
+    margin-left: 25px;
+    margin-bottom: 3px;
+    font-weight: 200;
+  }
+  .nowalls .phone {
+    margin-right: 50px;
+  }
+  .nowalls p {
+    padding-left: 5px;
+  }
+  .log {
+    overflow: hidden;
+  }
+  .log img {
+    width: 15%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .navbar {
+    overflow-x: hidden;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 62px;
+  }
+  .navbar h2 {
+    font-size: 32px;
+  }
+  .navbar .logo {
+    margin-left: 0px;
+  }
+  .navbar .logo img {
+    width: 100%;
+  }
+  .navbar a {
+    font-size: 31px;
+    margin-left: 35px;
+    font-weight: 900;
+  }
+  .navbar .navigation {
+    margin-right: 0px;
+  }
+  a {
+    font-size: 31px;
+    margin-left: 35px;
+    font-weight: 900;
+  }
+  p {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .head {
+    overflow-x: hidden;
+  }
+  .head h1 {
+    font-size: 75px;
+  }
+  .head h2 {
+    font-size: 40px;
+  }
+  .head .now {
+    font-size: 52px;
+  }
+  .head .line {
+    width: 72px;
+  }
+  .home {
+    overflow: hidden;
+    padding-left: 62px;
+    margin-left: 0px;
+    padding-right: 62px;
+    margin-right: 0px;
+  }
+  .home .glass {
+    width: 100%;
+    height: 62vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    object-fit: cover;
+  }
+  .home .lastimage {
+    margin-top: 12px;
+    width: 100%;
+    height: 61.8vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home .imageNumber-four {
+    padding-top: 190px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 63.8vh;
+  }
+  .home .faint {
+    height: 8vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home .lights {
+    width: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 8vh;
+    object-fit: cover;
+  }
+  .home .lastcar {
+    margin-left: 37px;
+    width: 373px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home .likesky {
+    margin-left: 26px;
+    width: 208px;
+    height: 8vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    opacity: 100%;
+  }
+  .home .pic1 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .home .pic1 .car-img {
+    height: 36.9vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home .imageNumber-four {
+    padding-top: 159.1px;
+  }
+  .lorem {
+    overflow-x: hidden;
+    padding-left: 3px;
+    padding-top: 55px;
+    padding-bottom: 70px;
+    margin-left: 25px;
+  }
+  .lorem .flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .lorem .hd {
+    margin-right: 0px;
+    width: 500px;
+    margin-left: 0px;
+  }
+  .lorem h2 {
+    font-size: 38px;
+  }
+  #service {
+    overflow-x: hidden;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 39px;
+  }
+  #service img {
+    width: 102%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #service a {
+    margin-left: 3px;
+  }
+  #service .first-page {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #service .line {
+    width: 380px;
+    border: 1px solid rgb(215, 123, 65);
+    margin: 0px;
+  }
+  #service .card-body {
+    padding: 6px;
+  }
+  #service h2 {
+    margin-left: 25px;
+    padding-bottom: 0px;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  #service .card {
+    margin: 10px;
+    border: none;
+  }
+  #service span {
+    display: grid;
+    margin-top: 15px;
+  }
+  #service .carousel-inner {
+    font-family: "BalooBhaijaan-Regular";
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  #subscribe {
+    margin-left: 62px;
+    margin-right: 62px;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  #subscribe .button {
+    padding: 20px;
+    width: 290px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-right: 100px;
+  }
+  #subscribe a {
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  #subscribe img {
+    width: 98%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-left: 6px;
+    margin-right: 0px;
+  }
+  #subscribe .scribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #contact {
+    padding-top: 70;
+    padding-left: 62px;
+    padding-right: 62px;
+    margin-bottom: 70px;
+  }
+  #contact img {
+    width: 80%;
+  }
+  #contact h2 {
+    font-size: 36px;
+    margin-bottom: 6px;
+  }
+  #contact p {
+    font-size: 17px;
+  }
+  #contact .roll {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #contact a {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  #contact .forms {
+    width: 545px;
+  }
+  #contact .form-control {
+    font-size: 18px;
+    padding: 15px;
+    margin: 15px;
+    margin-left: 38px;
+  }
+  #contact .button {
+    margin-left: 111px;
+    width: 545px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .nowalls {
+    overflow: hidden;
+  }
+  .nowalls .image {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-size: 100%;
+  }
+  .nowalls span {
+    font-size: 5px;
+    color: white;
+  }
+  .nowalls .pan {
+    width: 430px;
+    display: flex;
+    margin-left: 62px;
+    padding-top: 10px;
+  }
+  .nowalls h2 {
+    margin-left: 62px;
+    margin-bottom: 3px;
+    font-weight: 200;
+  }
+  .nowalls p {
+    padding-left: 5px;
+  }
+  .log {
+    overflow: hidden;
+  }
+  .log img {
+    width: 15%;
+  }
+}/*# sourceMappingURL=index.css.map */
