@@ -12,7 +12,7 @@
   src: url("BalooBhaijaan-Regular.ttf");
 }
 .hammenu .overlay {
-  height: 100%;
+  height: 125vh;
   width: 0;
   position: absolute;
   z-index: 1;
@@ -85,7 +85,7 @@
 .navbar a {
   font-family: "BalooBhaijaan-Regular";
   text-decoration: none;
-  font-size: 31px;
+  font-size: 32px;
   margin-left: 35px;
   font-weight: 900;
   color: rgb(0, 62, 84);
@@ -222,12 +222,14 @@
 .lorem h2 {
   font-family: "BalooBhaijaan-Regular";
   color: rgb(215, 123, 65);
-  font-size: 36px;
+  font-size: 40px;
 }
 .lorem p {
+  font-size: 18px;
   font-family: "Baloo2-Regular";
   color: rgb(0, 62, 84);
   line-height: 1.3;
+  font-weight: 500;
 }
 .lorem .flex {
   font-family: "BalooBhaijaan-Regular";
@@ -252,7 +254,7 @@
   padding-bottom: 40px;
   color: white;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 40px;
   margin-left: 20px;
 }
 #service .card {
@@ -322,9 +324,11 @@
   padding-right: 20px;
 }
 #service p {
+  font-size: 18px;
   font-family: "Baloo2-Regular";
   font-weight: 400;
   line-height: 1.3;
+  font-weight: 500;
 }
 
 .home h1 {
@@ -333,14 +337,15 @@
   font-weight: 900;
 }
 .home h2 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 400;
   font-family: "BalooBhaijaan-Regular";
 }
 .home p {
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 18px;
   font-weight: bolder;
-  font-family: "Baloo2-Regular";
+  font-family: "BalooBhaijaan-Regular";
 }
 .home img {
   width: 100%;
@@ -389,7 +394,7 @@
   font-weight: 400;
   font-family: "BalooBhaijaan-Regular";
   color: rgb(215, 123, 65);
-  font-size: 36px;
+  font-size: 40px;
 }
 
 #contact {
@@ -404,7 +409,7 @@
   width: 41.2%;
 }
 #contact img {
-  width: 80%;
+  width: 83%;
   background-size: cover;
 }
 #contact a {
@@ -412,7 +417,7 @@
   text-decoration: none;
   color: white;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 600;
 }
 #contact .button {
   display: flex;
@@ -425,22 +430,23 @@
 #contact h2 {
   font-family: "BalooBhaijaan-Regular";
   color: rgb(215, 123, 65);
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 400;
 }
 #contact p {
   font-family: "Baloo2-Regular";
-  font-size: 16px;
+  font-size: 18px;
   color: rgb(0, 62, 84);
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.3;
 }
 #contact .form-control {
+  font-size: 18px;
   font-family: "Baloo2-Regular";
   padding: 16px;
-  color: rgb(128, 151, 160);
+  color: rgba(10, 49, 64, 0.5);
   margin-bottom: 16px;
-  font-weight: 400;
+  font-weight: 500;
   width: 538px;
 }
 #contact .get {
@@ -469,6 +475,8 @@
   width: 100%;
 }
 .nowalls h2 {
+  font-family: "BalooBhaijaan-Regular";
+  font-size: 40px;
   margin-left: 70px;
   font-weight: 400;
 }
@@ -488,12 +496,10 @@
   margin: 2px;
 }
 .nowalls p {
+  font-size: 18px;
   font-family: "Baloo2-Regular";
   padding-left: 15px;
-  font-weight: 400;
-}
-.nowalls h2 {
-  font-family: "BalooBhaijaan-Regular";
+  font-weight: 600;
 }
 
 .log .image {
@@ -536,7 +542,7 @@
     color: rgb(0, 62, 84);
   }
   p {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 100;
   }
   h2 {
@@ -583,6 +589,9 @@
   .home .likesky {
     display: none;
   }
+  .home p {
+    font-size: 12px;
+  }
   .lorem {
     margin-left: 20px;
     margin-right: 20px;
@@ -608,6 +617,9 @@
     display: flex;
     justify-content: center;
     padding-left: 45px;
+  }
+  .lorem p {
+    font-size: 12px;
   }
   #service {
     overflow: hidden;
@@ -655,6 +667,14 @@
   #service .card-body .ser1, #service .card-body .ser2, #service .card-body .ser3 {
     margin-bottom: 0px;
   }
+  #service p {
+    font-size: 12px;
+  }
+  #service h5 {
+    position: relative;
+    top: 3px;
+    font-size: 15px;
+  }
   #service .carousel-inner {
     margin-left: 20px;
     margin-right: 20px;
@@ -670,12 +690,12 @@
   #subscribe .button {
     margin-right: 0px;
     padding: 20px;
-    width: 155px;
+    width: 178px;
     margin-left: 0px;
     margin-top: 1px;
   }
   #subscribe a {
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: none;
     font-weight: 100;
   }
@@ -683,7 +703,7 @@
     font-size: 18px;
     margin-right: 0px;
     margin-left: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 11px;
   }
   #subscribe img {
     width: 101%;
@@ -696,14 +716,17 @@
     display: flex;
     flex-direction: column;
   }
+  #subscribe .h2 {
+    margin-bottom: 15px;
+  }
   #contact {
     padding-top: 0px;
     margin-bottom: 40px;
   }
   #contact a {
     padding: 0px;
-    font-size: 10px;
-    font-weight: 200;
+    font-size: 12px;
+    font-weight: 600;
     margin: 0px;
   }
   #contact .h2 {
@@ -715,13 +738,14 @@
     border-radius: 3px;
   }
   #contact .form-control {
+    font-weight: 500;
     margin-bottom: 13px;
     width: 335px;
     padding: 13px;
-    font-size: 10px;
+    font-size: 12px;
   }
   #contact p {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 6px;
   }
   #contact .button {
@@ -766,10 +790,13 @@
     justify-content: space-between;
   }
   .nowalls h2 {
+    font-size: 18px;
     margin-left: 20px;
     margin-bottom: 3px;
   }
   .nowalls p {
+    font-size: 12px;
+    font-weight: 600;
     padding-left: 5px;
   }
   .log img {
@@ -1063,13 +1090,14 @@
     color: #ffffff;
   }
   .nowalls .pan {
-    width: 370px;
+    width: 407px;
     display: flex;
     margin-left: 24px;
     padding-top: 5px;
   }
   .nowalls .pan .footleg {
-    font-size: 14px;
+    margin-top: 4px;
+    font-size: 19px;
   }
   .nowalls h2 {
     font-size: 25px;
@@ -1397,13 +1425,13 @@
     color: white;
   }
   .nowalls .pan {
-    width: 370px;
+    width: 422px;
     display: flex;
     margin-left: 24px;
     padding-top: 10px;
   }
   .nowalls .pan .footleg {
-    font-size: 15px;
+    font-size: 19px;
     margin: 2px;
   }
   .nowalls h2 {
@@ -1731,5 +1759,112 @@
   }
   .log img {
     width: 15%;
+  }
+}
+@media only screen and (min-width: 1399px) {
+  .navbar a {
+    font-size: 34px;
+  }
+  .home {
+    padding-left: 58px;
+    margin-right: 58px;
+  }
+  .home .faint {
+    height: 7.6vh;
+  }
+  .home .website {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .home .pic1 {
+    margin-top: 13px;
+  }
+  .home .imageNumber-four {
+    padding-top: 213px;
+  }
+  .home .lights {
+    height: 7.5vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home h2 {
+    font-size: 40px;
+  }
+  .home .lastcar {
+    width: 393px;
+  }
+  .home .likesky {
+    margin-left: 15px;
+    height: 7.1vh;
+    width: 225px;
+  }
+  .lorem p {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .lorem .hd {
+    width: 550px;
+  }
+  .lorem .hd h2 {
+    font-size: 40px;
+  }
+  .lorem .flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  #service {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+  #service h2 {
+    font-size: 40px;
+  }
+  #service p {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  #subscribe h2 {
+    font-size: 40px;
+  }
+  #subscribe .scribe {
+    display: flex;
+    justify-content: space-around;
+  }
+  #subscribe .scribe .h2 {
+    margin-left: 30px;
+  }
+  #subscribe .scribe img {
+    margin-right: 30px;
+  }
+  #contact p {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  #contact h2 {
+    font-size: 40px;
+  }
+  #contact .form-control {
+    font-size: 18px;
+  }
+  #contact a {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  #contact img {
+    width: 80%;
+  }
+  .nowalls h2 {
+    font-size: 40px;
+  }
+  .nowalls p {
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .nowalls .fa-phone:before {
+    font-size: 24px;
+  }
+  .nowalls .fa-location-dot:before {
+    font-size: 24px;
   }
 }/*# sourceMappingURL=index.css.map */
