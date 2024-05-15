@@ -112,8 +112,12 @@
   font-weight: 400;
   color: rgb(0, 62, 84);
 }
-.home .imageNumber-four {
-  padding-top: 176px;
+.home .computers {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 62vh;
+  margin-top: 19px;
 }
 .home .lastimage {
   height: 63vh;
@@ -125,6 +129,9 @@
   margin-top: 5px;
 }
 .home .pic1 {
+  height: 62vh;
+  margin-top: 14px;
+  justify-content: flex-end;
   display: flex;
   flex-direction: column;
 }
@@ -135,13 +142,12 @@
      object-fit: cover;
 }
 .home .pic1 .faq {
-  padding-top: 25px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .home .pic1 .car-img {
   height: 37.2vh;
-  margin-top: 5.9px;
+  margin-top: 2.9px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -314,6 +320,7 @@
   border-radius: 50%;
   height: 20px;
   width: 20px;
+  background-color: #D77B41;
 }
 
 .home h1 {
@@ -385,7 +392,6 @@
 #contact {
   overflow: hidden;
   background-color: rgb(243, 244, 246);
-  padding-top: 60px;
   margin-bottom: 60px;
 }
 #contact .car {
@@ -442,6 +448,8 @@
   flex-direction: column;
 }
 #contact .fill {
+  padding-top: 36px;
+  padding-bottom: 36px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -577,6 +585,9 @@
   .home p {
     font-size: 12px;
   }
+  .home .computers {
+    display: none;
+  }
   .lorem {
     margin-left: 20px;
     margin-right: 20px;
@@ -706,7 +717,7 @@
   }
   #contact {
     padding-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   #contact a {
     padding: 0px;
@@ -754,6 +765,10 @@
   }
   #contact h2 {
     font-size: 18px;
+  }
+  #contact .fill {
+    padding-top: 0px;
+    padding-bottom: 20px;
   }
   .nowalls .image {
     padding-top: 20px;
@@ -854,6 +869,12 @@
     padding-right: 26px;
     margin-right: 0px;
   }
+  .home .computers {
+    display: none;
+  }
+  .home .pic1 {
+    height: 55vh;
+  }
   .home .website {
     font-size: 14px;
     font-weight: 500;
@@ -891,7 +912,7 @@
   }
   .lorem {
     overflow-x: hidden;
-    padding-top: 7px;
+    padding-top: 24px;
     padding-bottom: 47px;
     margin-left: 26px;
     margin-right: 26px;
@@ -1022,7 +1043,7 @@
   #contact {
     overflow: hidden;
     padding-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
   #contact img {
     width: 40%;
@@ -1072,7 +1093,10 @@
     margin-left: 0px;
   }
   #contact .formees {
-    padding-top: 50px;
+    padding-top: 14px;
+  }
+  #contact .fill {
+    padding-bottom: 25px;
   }
   .nowalls {
     overflow: hidden;
@@ -1232,6 +1256,12 @@
   .home .likesky {
     display: none;
   }
+  .home .computers {
+    display: none;
+  }
+  .home .pic1 {
+    height: 53.3vh;
+  }
   .lorem {
     overflow-x: hidden;
     padding-top: 40px;
@@ -1371,7 +1401,7 @@
   #contact {
     overflow: hidden;
     padding-top: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 34px;
   }
   #contact img {
     width: 40%;
@@ -1405,7 +1435,7 @@
     width: 750px;
   }
   #contact .formees {
-    padding-top: 70px;
+    padding-top: 34px;
     margin-right: 0px;
   }
   #contact .button {
@@ -1539,7 +1569,6 @@
        object-fit: cover;
   }
   .home .imageNumber-four {
-    padding-top: 190px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -1561,7 +1590,11 @@
     width: 135px;
     height: 2.6vh;
   }
+  .home .computers {
+    height: 26.4vh;
+  }
   .home .pic1 {
+    height: 26.4vh;
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
@@ -1679,7 +1712,7 @@
   #subscribe h2 {
     font-size: 35px;
     margin-bottom: 8px;
-    width: 347px;
+    width: 485px;
   }
   #subscribe img {
     width: 85%;
@@ -1697,8 +1730,7 @@
     justify-content: space-around;
   }
   #contact {
-    padding-top: 90px;
-    margin-bottom: 90px;
+    margin-bottom: 64px;
   }
   #contact .formees {
     margin-right: 0px;
@@ -1796,12 +1828,6 @@
     font-size: 18px;
     font-weight: 400;
   }
-  .home .pic1 {
-    margin-top: 30px;
-  }
-  .home .imageNumber-four {
-    padding-top: 255px;
-  }
   .home .lights {
     width: 346px;
     height: 7.1vh;
@@ -1833,6 +1859,7 @@
     font-size: 42px;
   }
   .lorem p {
+    width: 706px;
     font-weight: 500;
     font-size: 20px;
   }
@@ -1893,6 +1920,10 @@
   }
   #contact img {
     width: 80.5%;
+  }
+  #contact .fill {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .nowalls .pan {
     width: 474px;

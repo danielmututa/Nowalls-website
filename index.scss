@@ -163,10 +163,19 @@ a{
         color: $blue;
     }
 
-
+.computers{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 62vh;
+    margin-top: 19px;
     .imageNumber-four{
-      padding-top: 176px;
-    }
+        
+        // padding-top: 176px;
+      }
+
+}
+   
     .lastimage{
         height: 63.0vh;
        width: 99%;
@@ -178,7 +187,9 @@ a{
     
 
     .pic1{
-
+        height: 62vh;
+        margin-top: 14px;
+justify-content: flex-end;
         display: flex;
         flex-direction: column;
        
@@ -191,12 +202,12 @@ a{
 
    
     .faq{
-       padding-top: 25px;
+    
        object-fit: cover;
     }
     .car-img{
         height: 37.2vh;
-       margin-top: 5.9px;
+       margin-top: 2.9px;
        object-fit: cover;
        
     }
@@ -443,9 +454,12 @@ p{
         border-radius: 50%;
         height: 20px;
         width: 20px;
+        background-color: #D77B41;
     }
     margin-bottom: 0px;
     bottom: -61px;
+
+   
 }
 
 
@@ -555,7 +569,7 @@ font-size: $fonthit;
 @mixin hit{
     overflow: hidden;
     background-color: $formbackgroun;
-    padding-top: 60px;
+    // padding-top: 60px;
     margin-bottom: 60px;
  
     .car{
@@ -620,6 +634,8 @@ background-size: cover;
 }
 
 .fill{
+    padding-top: 36px;
+    padding-bottom: 36px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -828,6 +844,9 @@ p{
 p{
     font-size: $base-p-;
 }
+.computers{
+    display: none;
+}
 
     }
 
@@ -1003,7 +1022,7 @@ margin-right: 20px;
 #contact{
     
     padding-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 a{
    padding: 0px;
     font-size: $base-a-;
@@ -1056,7 +1075,10 @@ padding: 14px;
 h2{
     font-size: 18px;
 }
-
+.fill{
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
 
 
 }
@@ -1223,6 +1245,12 @@ span {
 
 .home{
 
+    .computers{
+        display: none;
+    }
+    .pic1{
+        height: 55vh;
+    }
     .website {
         font-size: 14px;
         font-weight: 500;
@@ -1274,7 +1302,7 @@ img{
     // lorem
 .lorem{
 overflow-x: hidden;
-    padding-top: 7px;
+    padding-top: 24px;
     padding-bottom: 47px;
   margin-left: 26px;
   margin-right: 26px;
@@ -1444,7 +1472,7 @@ overflow: hidden;
 #contact{
     overflow: hidden;
     padding-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     img{
         width: 40%;
         padding-left: 70px;
@@ -1503,9 +1531,11 @@ border-radius: 3px;
      margin-left: 0px;
 }
 .formees{
-    padding-top: 50px;
+    padding-top: 14px;
 }
-
+.fill{
+    padding-bottom: 25px;
+}
 
 }
 
@@ -1750,7 +1780,12 @@ a{
  .likesky{
     display: none;
  }
-
+ .computers{
+    display: none;
+ }
+.pic1{
+    height: 53.3vh;
+}
     }
 
  
@@ -1939,7 +1974,7 @@ overflow: hidden;
 #contact{
     overflow: hidden;
     padding-top: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 34px;
     img{
         width: 40%;
         padding-left: 70px;
@@ -1979,7 +2014,7 @@ a{
 }
 
 .formees{
-    padding-top: 70px;
+    padding-top: 34px;
     margin-right: 0px;
 }
   .button{
@@ -2191,7 +2226,7 @@ border-radius: 3px;
             object-fit: cover;
         }
      .imageNumber-four{
-        padding-top: 190px;
+        // padding-top: 190px;
         object-fit: cover;
      }
      .faint{
@@ -2212,8 +2247,11 @@ border-radius: 3px;
     height: 2.6vh;
      }
    
-
+.computers{
+    height: 26.4vh;
+}
     .pic1{
+        height: 26.4vh;
         object-fit: cover;
         width: 100%;
         .car-img{
@@ -2357,7 +2395,7 @@ overflow: hidden;
         h2{
             font-size: 35px;
             margin-bottom: 8px;
-            width: 347px;
+            width: 485px;
 
         }
         img{
@@ -2386,8 +2424,8 @@ overflow: hidden;
 
 
 #contact{
-    padding-top: 90px;
-    margin-bottom: 90px;
+    // padding-top: 90px;
+    margin-bottom: 64px;
     .formees{
         margin-right: 0px;
     }
@@ -2524,13 +2562,13 @@ a{
         font-size: 18px;
         font-weight: 400;
     }
-    .pic1 {
-        margin-top: 30px;
-    }
+    // .pic1 {
+    //     margin-top: 30px;
+    // }
 
-    .imageNumber-four {
-        padding-top: 255px;
-    }
+    // .imageNumber-four {
+    //     padding-top: 255px;
+    // }
 .lights{
     width: 346px;
     height: 7.1vh;
@@ -2575,6 +2613,7 @@ h2{
 .lorem{
   
     p{
+        width: 706px;
         font-weight: 500;
         font-size: 20px;
     }
@@ -2649,6 +2688,10 @@ h2{
     }
     img {
         width: 80.5%;
+    }
+    .fill{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
