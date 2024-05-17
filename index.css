@@ -1832,7 +1832,7 @@
     margin-bottom: 0px;
   }
   .home .lights {
-    width: 346px;
+    width: 103.5%;
     height: 7.1vh;
     -o-object-fit: cover;
        object-fit: cover;
@@ -1841,13 +1841,13 @@
     font-size: 40px;
   }
   .home .lastcar {
-    width: 407px;
-    margin-left: 32px;
+    width: 32%;
+    margin-left: 11px;
   }
   .home .likesky {
-    margin-left: 20px;
+    margin-left: 11px;
     height: 6.8vh;
-    width: 226px;
+    width: 100%;
   }
   .home .glass {
     height: 63vh;
@@ -1970,6 +1970,8 @@
     margin-right: 58px;
   }
   .home .faint {
+    margin-left: 1px;
+    width: 100%;
     height: 7.1vh;
   }
   .home .website {
@@ -1977,7 +1979,7 @@
     font-weight: 400;
   }
   .home .lights {
-    width: 460px;
+    width: 104.8%;
     height: 7.2vh;
     -o-object-fit: cover;
        object-fit: cover;
@@ -1986,13 +1988,13 @@
     font-size: 40px;
   }
   .home .lastcar {
-    width: 530px;
-    margin-left: 31px;
+    width: 32%;
+    margin-left: 19px;
   }
   .home .likesky {
-    margin-left: 45px;
+    margin-left: 19px;
     height: 7.3vh;
-    width: 260px;
+    width: 100%;
   }
   .home .glass {
     height: 63vh;
