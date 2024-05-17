@@ -168,7 +168,7 @@ a{
     justify-content: center;
     align-items: flex-end;
     height: 62vh;
-    margin-top: 19px;
+    margin-top: 20px;
     .imageNumber-four{
         
         // padding-top: 176px;
@@ -2562,13 +2562,13 @@ a{
         font-size: 18px;
         font-weight: 400;
     }
-    // .pic1 {
-    //     margin-top: 30px;
-    // }
+    .pic1 {
+      .car-img{
+        margin-bottom: 0px;
+      }
+    }
 
-    // .imageNumber-four {
-    //     padding-top: 255px;
-    // }
+   
 .lights{
     width: 346px;
     height: 7.1vh;
@@ -2582,14 +2582,14 @@ padding-left: 58px;
 margin-right: 58px;
 .lastcar{
     width: 407px;
-    
+    margin-left: 32px;
 
 }
 
 .likesky{
-    margin-left: 22px;
+    margin-left: 20px;
     height: 6.8vh;
-    width: 225px;
+    width: 226px;
 }
 
 .glass{
@@ -2605,6 +2605,22 @@ margin-right: 58px;
 }
 h2{
     font-size: 42px;
+}
+
+.allpics{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.col-md-3,.col-md-2,.col-md-4{
+    margin-top: 0px;
+}
+.lastcar,.likesky{
+    margin-top: 6px;
+}
+.faint,.lights{
+margin-top: 8px;
 }
 }
 
@@ -2721,6 +2737,193 @@ h2{
 
 
 
+
+
+
+
+
+
+
+@media only screen and  (min-width: 1500px) {
+
+
+
+
+
+    .navbar{
+        a{
+            
+            font-size:34px;
+        }
+    }
+       
+    .home{
+        
+        .faint{
+            height: 7vh;
+        }
+        .website {
+            font-size: 18px;
+            font-weight: 400;
+        }
+        
+    .lights{
+        width: 367px;
+        height: 7.1vh;
+        object-fit: cover;
+    }
+    
+        h2{
+            font-size: 40px;
+        }
+    padding-left: 58px;
+    margin-right: 58px;
+    .lastcar{
+        width: 461px;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 0px;
+        
+    
+    }
+    
+    .likesky{
+        margin-left: 27px;
+        height: 7.2vh;
+        width: 225px;
+    }
+    
+    .glass{
+        height: 63vh;
+        margin-top: 5px;
+    }
+    
+    .website{
+        font-size: 20px;
+    }
+    .now{
+        font-size: 52px;
+    }
+    h2{
+        font-size: 42px;
+    }
+
+
+    }
+    
+    
+    
+    .lorem{
+      
+        p{
+            width: 706px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        
+        .hd{
+            margin-left: 35px;
+            h2{
+                font-size: 42px;
+            }
+            width: 550px;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    
+    #service{
+        padding-left: 38px;
+        padding-right: 38px;
+        h2{
+            font-size: 42px;
+        }
+        p{
+            font-weight: 500;
+            font-size: 20px;
+        }
+    
+        .line {
+            width: 391px;
+            
+        }
+        h5{
+            font-size: 24px;
+        }
+    }
+    
+    #subscribe{
+        h2{
+            font-size: 42px;
+        }
+    
+        .scribe{
+            display: flex;
+            justify-content: space-around;
+            .h2{
+                margin-left: 30px;
+                
+            }
+            img{
+                margin-right: 30px;
+            }
+        }
+       
+    }
+    
+    #contact{
+        p{
+            font-weight: 500;
+            font-size: 20px;
+        }
+        h2{
+            font-size: 42px;
+        }
+    
+        .form-control{
+            font-size: 20px;
+        }
+        a{
+            font-weight: 600;
+            font-size: 20px;
+        }
+        img {
+            width: 80.5%;
+        }
+        .fill{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    }
+    
+    .nowalls{
+        .pan{
+            width: 474px;
+        }
+        h2{
+            font-size: 42px;
+        }
+        p{
+            font-weight: 500;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    
+        .fa-phone:before {
+            font-size: 24px;
+        }
+    
+        .fa-location-dot:before {
+            font-size: 24px
+        }
+    }
+
+
+
+
+}
 
 
 

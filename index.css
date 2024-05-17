@@ -117,7 +117,7 @@
   justify-content: center;
   align-items: flex-end;
   height: 62vh;
-  margin-top: 19px;
+  margin-top: 20px;
 }
 .home .lastimage {
   height: 63vh;
@@ -1828,6 +1828,9 @@
     font-size: 18px;
     font-weight: 400;
   }
+  .home .pic1 .car-img {
+    margin-bottom: 0px;
+  }
   .home .lights {
     width: 346px;
     height: 7.1vh;
@@ -1839,10 +1842,158 @@
   }
   .home .lastcar {
     width: 407px;
+    margin-left: 32px;
   }
   .home .likesky {
-    margin-left: 22px;
+    margin-left: 20px;
     height: 6.8vh;
+    width: 226px;
+  }
+  .home .glass {
+    height: 63vh;
+    margin-top: 5px;
+  }
+  .home .website {
+    font-size: 20px;
+  }
+  .home .now {
+    font-size: 52px;
+  }
+  .home h2 {
+    font-size: 42px;
+  }
+  .home .allpics {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .home .col-md-3, .home .col-md-2, .home .col-md-4 {
+    margin-top: 0px;
+  }
+  .home .lastcar, .home .likesky {
+    margin-top: 6px;
+  }
+  .home .faint, .home .lights {
+    margin-top: 8px;
+  }
+  .lorem p {
+    width: 706px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .lorem .hd {
+    margin-left: 35px;
+    width: 550px;
+  }
+  .lorem .hd h2 {
+    font-size: 42px;
+  }
+  .lorem .flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  #service {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+  #service h2 {
+    font-size: 42px;
+  }
+  #service p {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  #service .line {
+    width: 391px;
+  }
+  #service h5 {
+    font-size: 24px;
+  }
+  #subscribe h2 {
+    font-size: 42px;
+  }
+  #subscribe .scribe {
+    display: flex;
+    justify-content: space-around;
+  }
+  #subscribe .scribe .h2 {
+    margin-left: 30px;
+  }
+  #subscribe .scribe img {
+    margin-right: 30px;
+  }
+  #contact p {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  #contact h2 {
+    font-size: 42px;
+  }
+  #contact .form-control {
+    font-size: 20px;
+  }
+  #contact a {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  #contact img {
+    width: 80.5%;
+  }
+  #contact .fill {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .nowalls .pan {
+    width: 474px;
+  }
+  .nowalls h2 {
+    font-size: 42px;
+  }
+  .nowalls p {
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nowalls .fa-phone:before {
+    font-size: 24px;
+  }
+  .nowalls .fa-location-dot:before {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .navbar a {
+    font-size: 34px;
+  }
+  .home {
+    padding-left: 58px;
+    margin-right: 58px;
+  }
+  .home .faint {
+    height: 7vh;
+  }
+  .home .website {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .home .lights {
+    width: 367px;
+    height: 7.1vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home h2 {
+    font-size: 40px;
+  }
+  .home .lastcar {
+    width: 461px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0px;
+  }
+  .home .likesky {
+    margin-left: 27px;
+    height: 7.2vh;
     width: 225px;
   }
   .home .glass {
